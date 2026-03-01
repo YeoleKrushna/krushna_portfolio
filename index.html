@@ -617,11 +617,16 @@ footer{
   .nav-links{display:none}
   .nav-hamburger{display:flex}
   /* Hero: single col */
-  #hero{grid-template-columns:1fr;grid-template-rows:auto;height:auto}
-  .hero-left{padding:clamp(96px,12vh,120px) clamp(18px,6vw,32px) 36px;justify-content:flex-start}
+  #hero{grid-template-columns:1fr;grid-template-rows:auto;height:auto;min-height:0;padding-right:0}
+  .hero-left{padding:clamp(96px,12vh,120px) clamp(18px,6vw,32px) 28px;justify-content:flex-start;align-items:center;text-align:center}
+  .hero-tag{justify-content:center;flex-direction:column;gap:10px}
+  .hero-tag-line{width:28px}
+  .hero-tag-text{letter-spacing:2px;line-height:1.45;max-width:300px}
+  .hero-name{margin-bottom:clamp(14px,2.5vh,24px)}
+  .hero-btns{justify-content:center;gap:14px}
   .hero-right{display:none}
-  .hero-ghost{right:-8%;bottom:-2%;font-size:clamp(90px,30vw,140px)}
-  .scroll-cue{left:18px;bottom:20px}
+  .hero-ghost{right:-10%;bottom:4%;font-size:clamp(90px,30vw,140px)}
+  .scroll-cue{display:none}
   .sec{padding:clamp(64px,10vh,96px) clamp(18px,6vw,28px)}
   /* About */
   .about-layout{grid-template-columns:1fr}
@@ -1076,3 +1081,4 @@ window.addEventListener('scroll',()=>{
 </script>
 </body>
 </html>
+
