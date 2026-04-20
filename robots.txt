@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://krushnayeole.site/sitemap.xml
+Sitemap: https://krushnayeole.me/sitemap.xml
